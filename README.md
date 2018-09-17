@@ -8,7 +8,7 @@ Modbot contains features to help moderate a channel, such as enabling commands a
 2. Install node.js and discord.js (npm install discord.js)
 3. Run Modbot in node (node Modbot.js)
 
-# File List
+# File Contents
 
 Modbot.js
 -Contains main class that calls methods of other classes. Master contains login function to discord server. Contains listener function for events, such as messages
