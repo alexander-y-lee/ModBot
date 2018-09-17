@@ -1,8 +1,14 @@
 # ModBot
 
-Modbot contains features to help moderate a channel, such as enabling commands and virus scanning. 
+Modbot contains features to help moderate a channel, such as enabling commands and virus scanning. Code is written with JavaScript/Node.js. 
 
-Code is written with JavaScript/Node.js. The following list below details what each file contains. Future branches would have bots for certain platforms, not just Discord.
+# How to Use
+
+1. Create config.json file with bot token API key
+2. Install node.js and discord.js (npm install discord.js)
+3. Run Modbot in node (node Modbot.js)
+
+# File List
 
 Modbot.js
 -Contains main class that calls methods of other classes. Master contains login function to discord server. Contains listener function for events, such as messages
